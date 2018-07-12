@@ -9,6 +9,12 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class ExtraDetails
 {
+    public function __construct($id, $description)
+    {
+        $this->setId($id);
+        $this->setDescription($description);
+    }
+
     /**
      * @var string
      *
