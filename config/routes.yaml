@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+extraDetails:
+    type:     rest
+    resource: App\Controller\ExtraDetailsController
